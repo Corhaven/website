@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/*body{
+	background-color: #1459BA;
+    background-image: url(../images/bg-banner-home6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+}*/
+
+h1,h2,h3,h4,h5,h6{font-family: 'Roboto', sans-serif;font-weight: 900;
+    font-family: "Red Hat Display",sans-serif;}
+
+p{color: #fff; font-size: 18px; line-height: 30px;font-family: "Red Hat Display",sans-serif;}
+
+
+/*navbar*/
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tp-ks{background-color: #1459BA;
+    background-image: url(../images/bg-banner-home6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;}
+
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    width: 100%;
+    float: left;
+}
+
+section.header {
+    width: 100%;
+    float: left;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgba(255, 255, 255, 0.2);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}	
+
+section.my {
+    margin: 3em 0 2em 0;
+}
+
+/*dropdown*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div#collapsibleNavbar {
+    justify-content: center;
+}
+
+nav.navbar.navbar-expand-md.bg-dark.navbar-dark{width: 100%; float: left;}
+
+.bg-dark {
+    background: no-repeat!important;
+}
+
+section.main-bar {
+    width: 100%;
+    float: left;
+    padding: 0 20px 0 20px;
+}
+
+.web-yp .img-py {
+    float: left;
+}
+
+.heading-bar h2 {
+    font-size: 56px;
+    line-height: 72px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.text-ly .tt {
+    color: #0EC6FF;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+.web-yp .text-ly {
+    float: right;
+    margin: 50px 0;
+}
+
+ul.navbar-nav li {
+    font-family: "Red Hat Display",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 0 15px 0;
+    line-height: 35px;
+    transition: all 0.2s ease-out 0s;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffff;
+}
+
+/*button css*/
+/* CSS */
+.button-82-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(340deg 100% 16%) 0%,
+    hsl(340deg 100% 32%) 8%,
+    hsl(340deg 100% 32%) 92%,
+    hsl(340deg 100% 16%) 100%
+  );
+}
+
+.button-82-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(345deg 100% 47%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .button-82-front {
+    font-size: 1.25rem;
+    padding: 12px 42px;
+  }
+}
+
+.button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.contact-py {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img.img-responsive {
+    width: 100%;
+}
+
+/*about*/
+.aboput-text.text-ly {
+    float: none;
+}
+
+.ls-pr {
+    background-color: #1459BA;
+    background-image: url(../images/bm13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 25px 0px 15px 0px;
+}
+
+.wrp-services {
+    width: 100%;
+    float: left;
+    margin: 2em 0;
+}
+
+.wp01 {
+    padding: 20px 0 20px;
+}
+
+.wrp-services .lm-ip {
+    text-align: center;
+}
+
+.wrp-services .icons-ser {
+    margin: 25px 0 25px;
+}
+
+.wrp-services .lm-ip .icons-ser .fa {
+    color: #00C3FF;
+    font-size: 33px;
+}
+
+.wrp-services .para-ser p {
+    color: #C5DDFF;
+}
+.wrp-services .lm-ip .heading-ser h4 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Red Hat Display",sans-serif;
+    margin: 25px 0 25px;
+}
+
+.wp01:hover {
+    background-image: url(../images/wps.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
+        box-shadow: 11px 12px 35px 0px rgba(44, 67, 113, 0.3);
+        transition: all 1s ease-out;
+       /* padding: 15px 25px 15px 25px;*/
+    border-radius: 23px 20px 23px;
+}
+
+.wrp-services .ups-op {
+    float: left;
+}
+
+.icons-ser img {
+    width: 50px;
+}
+
+.py-56 {
+    width: 100%;
+    float: left;
+    margin: 3em 0;
+}
+
+section.py-tabs {
+    width: 100%;
+    float: left;
+    padding: 0 25px 0 25px;
+}
+
+#nav-tab span img {
+    width: 50px;
+}
+
+/*tabs css*/
+
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:none;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:none;
+    border-radius:0;
+    display: block;
+    border: 3px solid rgba(255,255,255,.25);
+    padding: 28px 19px;
+    margin: 0 10px;
+    border-radius: 15px 15px;
+    font-family: "Red Hat Display",sans-serif;
+    font-weight: 600;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -70px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #e74c3c ;
+}
+.tab-content{
+  background: none;
+    line-height: 25px;
+    border: none;
+    padding:30px 25px;
+    margin: 35px 0;
+}
+
+#nav-home-tab:before {
+    content: "\f200";
+    font-family: FontAwesome;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 15px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #e74c3c;
+    color:#fff;
+    border-radius: 15px 15px;
+    transition:background 0.20s linear;
+}
+
+nav.tabs-bar {
+    width: 100%;
+}
+
+.wrap-tmp .tbs-contentwp {
+    float: left;
+}
+
+.tbs-contentwp .heading-one h3 {
+    color: #fff;
+    font-size: 36px;
+    padding: 28px 0px 10px;
+}
+
+section.pricing {
+    width: 100%;
+    float: left;
+}
+
+.py-pricing{width: 100%;float: left; text-align: center;}
+
+.collapse.navbar-collapse .navbar-nav li:hover:before,
+.collapse.navbar-collapse .navbar-nav li:before{left: 37%; width: 4%;}
+
+.collapse.navbar-collapse .navbar-nav li:after,
+.collapse.navbar-collapse .navbar-nav li:before{ position: absolute;
+    height: 5px;
+    width: 0%;
+    bottom: -3px;
+    background: #00c3ff;
+    content: "";
+    display: block;
+    transition: all 0.3s linear;}
+
+.collapse.navbar-collapse .navbar-nav li:before{-webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 0;
+    right: 0;
+    left: auto;
+  }
+
+.web-yps .services-text.text-ly {
+    text-align: center;
+}
+
+/*section.main-bar.my.services {
+    background-image: url(./images/bg-shape1-home6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #0049B1;
+}*/
+
+.web-yps {
+    width: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-image: url(../images/bm3.png.png);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 20px 0px 20px 0px;
+    background-size: cover;
+}
+
+
+   
